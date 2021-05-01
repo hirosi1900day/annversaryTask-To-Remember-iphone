@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E47B7A4DA66E6CC7E632C32 /* Pods_Anniversary_forgetting_prevention.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2A01375FE45BA416AD8A22 /* Pods_Anniversary_forgetting_prevention.framework */; };
 		F6DF4CE3263577380075727F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF4CE2263577380075727F /* AppDelegate.swift */; };
 		F6DF4CE5263577380075727F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF4CE4263577380075727F /* SceneDelegate.swift */; };
-		F6DF4CE7263577380075727F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF4CE6263577380075727F /* ViewController.swift */; };
 		F6DF4CEA263577380075727F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DF4CE8263577380075727F /* Main.storyboard */; };
 		F6DF4CEC2635773B0075727F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DF4CEB2635773B0075727F /* Assets.xcassets */; };
 		F6DF4CEF2635773B0075727F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DF4CED2635773B0075727F /* LaunchScreen.storyboard */; };
+		F6EAC5062635D43F00C85F19 /* AnniversaryIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EAC5052635D43F00C85F19 /* AnniversaryIndexViewController.swift */; };
+		F6EAC5092635DEE300C85F19 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EAC5082635DEE300C85F19 /* InputViewController.swift */; };
+		F6EAC5112636749800C85F19 /* Anniversary-forgetting-oreventionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EAC5102636749800C85F19 /* Anniversary-forgetting-oreventionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0EF5C0F49D9224DE1FBB61 /* Pods-Anniversary-forgetting-prevention.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anniversary-forgetting-prevention.debug.xcconfig"; path = "Target Support Files/Pods-Anniversary-forgetting-prevention/Pods-Anniversary-forgetting-prevention.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2A01375FE45BA416AD8A22 /* Pods_Anniversary_forgetting_prevention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anniversary_forgetting_prevention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DF4CDF263577380075727F /* Anniversary-forgetting-prevention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anniversary-forgetting-prevention.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DF4CE2263577380075727F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6DF4CE4263577380075727F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6DF4CE6263577380075727F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6DF4CE9263577380075727F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6DF4CEB2635773B0075727F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6DF4CEE2635773B0075727F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6DF4CF02635773B0075727F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EAC5052635D43F00C85F19 /* AnniversaryIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryIndexViewController.swift; sourceTree = "<group>"; };
+		F6EAC5082635DEE300C85F19 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		F6EAC5102636749800C85F19 /* Anniversary-forgetting-oreventionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Anniversary-forgetting-oreventionModel.swift"; sourceTree = "<group>"; };
+		F8F6D6F653B6F2159C91454B /* Pods-Anniversary-forgetting-prevention.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anniversary-forgetting-prevention.release.xcconfig"; path = "Target Support Files/Pods-Anniversary-forgetting-prevention/Pods-Anniversary-forgetting-prevention.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E47B7A4DA66E6CC7E632C32 /* Pods_Anniversary_forgetting_prevention.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D5E53BE5CE15F7B59BA8676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D0EF5C0F49D9224DE1FBB61 /* Pods-Anniversary-forgetting-prevention.debug.xcconfig */,
+				F8F6D6F653B6F2159C91454B /* Pods-Anniversary-forgetting-prevention.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDE82FB49AB94738B9959269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B2A01375FE45BA416AD8A22 /* Pods_Anniversary_forgetting_prevention.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6DF4CD6263577380075727F = {
 			isa = PBXGroup;
 			children = (
 				F6DF4CE1263577380075727F /* Anniversary-forgetting-prevention */,
 				F6DF4CE0263577380075727F /* Products */,
+				9D5E53BE5CE15F7B59BA8676 /* Pods */,
+				BDE82FB49AB94738B9959269 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +86,13 @@
 			children = (
 				F6DF4CE2263577380075727F /* AppDelegate.swift */,
 				F6DF4CE4263577380075727F /* SceneDelegate.swift */,
-				F6DF4CE6263577380075727F /* ViewController.swift */,
 				F6DF4CE8263577380075727F /* Main.storyboard */,
+				F6EAC5082635DEE300C85F19 /* InputViewController.swift */,
+				F6EAC5052635D43F00C85F19 /* AnniversaryIndexViewController.swift */,
 				F6DF4CEB2635773B0075727F /* Assets.xcassets */,
 				F6DF4CED2635773B0075727F /* LaunchScreen.storyboard */,
 				F6DF4CF02635773B0075727F /* Info.plist */,
+				F6EAC5102636749800C85F19 /* Anniversary-forgetting-oreventionModel.swift */,
 			);
 			path = "Anniversary-forgetting-prevention";
 			sourceTree = "<group>";
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6DF4CF32635773B0075727F /* Build configuration list for PBXNativeTarget "Anniversary-forgetting-prevention" */;
 			buildPhases = (
+				A8A59078F484D0A570CC2F3A /* [CP] Check Pods Manifest.lock */,
 				F6DF4CDB263577380075727F /* Sources */,
 				F6DF4CDC263577380075727F /* Frameworks */,
 				F6DF4CDD263577380075727F /* Resources */,
+				9A79DC196B9CB7DC81763EF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +164,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A79DC196B9CB7DC81763EF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anniversary-forgetting-prevention/Pods-Anniversary-forgetting-prevention-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anniversary-forgetting-prevention/Pods-Anniversary-forgetting-prevention-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Anniversary-forgetting-prevention/Pods-Anniversary-forgetting-prevention-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A59078F484D0A570CC2F3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anniversary-forgetting-prevention-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6DF4CDB263577380075727F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DF4CE7263577380075727F /* ViewController.swift in Sources */,
 				F6DF4CE3263577380075727F /* AppDelegate.swift in Sources */,
 				F6DF4CE5263577380075727F /* SceneDelegate.swift in Sources */,
+				F6EAC5062635D43F00C85F19 /* AnniversaryIndexViewController.swift in Sources */,
+				F6EAC5112636749800C85F19 /* Anniversary-forgetting-oreventionModel.swift in Sources */,
+				F6EAC5092635DEE300C85F19 /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +359,7 @@
 		};
 		F6DF4CF42635773B0075727F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0EF5C0F49D9224DE1FBB61 /* Pods-Anniversary-forgetting-prevention.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +378,7 @@
 		};
 		F6DF4CF52635773B0075727F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F6D6F653B6F2159C91454B /* Pods-Anniversary-forgetting-prevention.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
